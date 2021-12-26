@@ -1,0 +1,119 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  border-radius: 20px;
+  min-width: auto;
+  max-width: 250px;
+  min-height: auto;
+  max-height: 600px;
+  background-color: #243441;
+  text-align: center;
+  padding: 30px;
+}
+.button {
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+.mainbuttons {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.out {
+  min-width: auto;
+  max-width: 250px;
+  font-size: 40px;
+  background-color: #243441;
+  color: white;
+  border: none;
+  text-align: right;
+}
+
+.yellow {
+  background-color: #f85301;
+  color: white;
+  margin-left: 10px;
+  padding-right: 200px;
+  border-radius: 40px;
+  font-size: 4em;
+  font-weight: bold;
+}
+.yellow:hover {
+  color: #f36507;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.yellow:active {
+  background-color: #ffb178;
+  color: white;
+  cursor: pointer;
+}
+.grey {
+  background-color: #243441;
+  color: lightgray;
+}
+.grey:hover {
+  color: red;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.grey:active {
+  background-color: #243441;
+  color: white;
+  cursor: pointer;
+}
+.sign {
+  background-color: #243441;
+  color: #f85301;
+}
+.sign:hover {
+  color: #fa1c06;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.sign:active {
+  background-color: #243441;
+  color: #f85301;
+  cursor: pointer;
+}
+
+.red {
+  color: #fa1c06;
+  cursor: pointer;
+}
+.red:hover {
+  background-color: red;
+  color: wheat;
+  cursor: pointer;
+}
+.alter {
+  background-color: #243441;
+  color: lightgray;
+  padding-right: 100px;
+  border-radius: 40px;
+}
+.alter:hover {
+  color: red;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.alter:active {
+  background-color: #243441;
+  color: white;
+  cursor: pointer;
+}

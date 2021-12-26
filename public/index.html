@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <h1 style="font-size: 1em; margin-top: 0; color: #E04F15; font-family: Snell Roundhand, cursive;">
+            MUHAMMAD HAMZA</h1>
+        <h1 style="font-size: 1.2em; margin-top: 0;">CALC<span style="color: #f85301; font-family: Snell Roundhand, cursive;">UL</span>ATOR</h1>
+        <div class="calculator">
+            
+            <input type="text" class="out" id="inputvalues" disabled>
+        </div>
+        <div class="mainbuttons">
+            <button class="button red" onclick="delvalues()">AC</button>
+            <button class="button sign" onclick="getvalue('%')">%</button>
+            <button class="button sign" onclick="getvalue('(')">(</button>
+            <button class="button sign" onclick="getvalue(')')">)</button>
+            
+            <button class="button grey" onclick="getvalue(7)">7</button>
+            <button class="button grey" onclick="getvalue(8)"> 8</button>
+            <button class="button grey" onclick="getvalue(9)">9</button>
+            <button class="button sign" onclick="getvalue('/')">/</button>
+            <button class="button grey" onclick="getvalue(4)">4</button>
+            
+            <button class="button grey" onclick="getvalue(5)">5</button>
+            <button class="button grey" onclick="getvalue(6)">6</button>
+            <button class="button sign" onclick="getvalue('*')">*</button>
+            
+            <button class="button grey" onclick="getvalue(1)">1</button>
+            
+            <button class="button grey" onclick="getvalue(2)">2</button>
+            
+            <button class="button grey" onclick="getvalue(3)">3</button>
+            <button class="button sign" onclick="getvalue('+')">+</button>
+            <button class="button alter"  onclick="getvalue(0)"><span style="padding-left: 80px;">0</span></button>
+            <button class="button sign" onclick="getvalue('.')">.</button>
+            <button class="button sign" onclick="getvalue('-')">-</button>
+            
+            <button class="button yellow" onclick="calculate()"><span style="padding-left: 195px;">=</span></button>
+            
+            
+        </div>
+    </div>
+    <script src="JS/app.js"></script>
+
+</body>
+</html>
